@@ -708,6 +708,7 @@ hr {
         font-size:6vh;
     }
     #card-pres1 {
+        align-self: end;
         justify-self:center;
         left:0px;
         margin: 20px 0;
@@ -715,6 +716,7 @@ hr {
         height: 150px;
     }
     #card-pres2 {
+        align-self: center;
         justify-self:center;
         right:0px;
         margin: 20px 0;
