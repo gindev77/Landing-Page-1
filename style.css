@@ -35,7 +35,7 @@ html {
     display : grid;
     grid-template-columns: repeat(auto-fit, minmax(min-content, 1fr));
     /* grid-template-columns: repeat(3, 1fr); */
-    grid-template-rows: max-content 3fr 2fr 1fr 5fr;
+    grid-template-rows: 2fr 3fr 3fr 1fr 5fr;
     grid-gap: 20px;
     grid-template-areas : "navbar navbar navbar"
                           "titre1 titre1 titre1"
