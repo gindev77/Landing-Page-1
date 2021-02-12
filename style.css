@@ -310,7 +310,7 @@ nav {
     position:relative;
     grid-area:card1;
     border: rgb(255, 255, 255);
-    box-shadow: 3px 3px 10px 6px rgba(0, 0, 255, .2);
+    box-shadow: 3px 3px 10px 6px #68676733;
     height: 90%;
     outline: none;
     margin: 20px auto;
@@ -325,7 +325,8 @@ nav {
     position:relative;
     grid-area:card2;
     border: rgb(255, 255, 255);
-    box-shadow: 3px 3px 10px 6px rgba(0, 0, 255, .2);
+    /* box-shadow: 3px 3px 10px 6px rgba(0, 0, 255, .2); */
+    box-shadow: 3px 3px 10px 6px #68676733;
     height: 90%;
     outline: none;
     margin: 20px auto;
@@ -340,7 +341,7 @@ nav {
     position:relative;
     grid-area:card3;
     border: rgb(255, 255, 255);
-    box-shadow: 3px 3px 10px 6px rgba(0, 0, 255, .2);
+    box-shadow: 3px 3px 10px 6px #68676733;
     height: 90%;
     outline: none;
     margin: 20px auto;
@@ -355,7 +356,7 @@ nav {
     position:relative;
     grid-area:card4;
     border: rgb(255, 255, 255);
-    box-shadow: 3px 3px 10px 6px rgba(0, 0, 255, .2);
+    box-shadow: 3px 3px 10px 6px #68676733;
     height: 90%;
     outline: none;
     margin: 20px auto;
@@ -370,7 +371,7 @@ nav {
     position:relative;
     grid-area:card5;
     border: rgb(255, 255, 255);
-    box-shadow: 3px 3px 10px 6px rgba(0, 0, 255, .2);
+    box-shadow: 3px 3px 10px 6px #68676733;
     height: 90%;
     outline: none;
     margin: 20px auto;
@@ -384,7 +385,7 @@ nav {
     min-height: 160px;
     grid-area:card6;
     border: rgb(255, 255, 255);
-    box-shadow: 3px 3px 10px 6px rgba(0, 0, 255, .2);
+    box-shadow: 3px 3px 10px 6px #68676733;
     height: 90%;
     outline: none;
     margin: 20px auto;
