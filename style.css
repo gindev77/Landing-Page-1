@@ -28,6 +28,7 @@ html {
 
 #invensys {
     font-size: 35px;
+    display:inline-block;
 }
 
 
@@ -74,7 +75,7 @@ html {
     display : grid;
     grid-template-columns: repeat(auto-fit, minmax(min-content, 1fr));
     /* grid-template-columns: repeat(1, 1fr); */
-    grid-template-rows: 0.5fr 0.5fr 0.5fr min-content 0.5fr;
+    grid-template-rows: 1fr 0.5fr 0.5fr min-content 0.5fr;
     grid-gap: 20px;
     grid-template-areas : 
     "titre6"
@@ -281,6 +282,7 @@ nav {
 }
 
 #logo {
+    display:inline-block;
     height: 70px;
     width: 70px;
 }
@@ -528,6 +530,7 @@ hr {
 
 .contact {
     background-color: #053E5E;
+    height:100vh;
 }
 
 .item-footer {
@@ -603,6 +606,7 @@ hr {
         display:block;
         background-color: #053E5E;
         margin: 0;
+        padding-bottom : 20px;
         font-size: 20px;
     }
     .btn-toggle-container {
@@ -614,15 +618,18 @@ hr {
         display:none;
     }
 
-    /* #invensys {
-        display:block !important;
-    } */
-
     .list-nav.active-menu {
         display:block;
     }
 
-    .item-nav a, #invensys {
+    #invensys {
+        display:flex;
+        justify-content: center;
+        color:#fff;
+        margin-bottom:18px;
+    }
+
+    .item-nav a {
         color:#fff;
         flex-direction:column;
     }
@@ -767,7 +774,7 @@ hr {
     .icons {
         transform:scale(0.7);
         width:270px;
-        margin:0 auto;
+        margin:0 auto ;
     }
     #ico_fact {
         margin-right:8px;
