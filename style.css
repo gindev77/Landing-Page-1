@@ -86,7 +86,7 @@ html {
 
 .navbar {
     grid-area : navbar;
-    align-self: center;
+    /* align-self: center; */
     justify-self:center;
     z-index:1;
 }
