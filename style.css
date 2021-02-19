@@ -129,14 +129,14 @@ html {
     grid-area : titre1;
     align-self: end;
     justify-self:center;
-    font-size: 30px;
+    font-size: 1.8rem;
 }
 
 .titre2{
     grid-area : titre2;
     align-self:start;
     justify-self:center;
-    font-size: 10vh;
+    font-size: 4rem;
     text-align: center;
 }
 
@@ -160,13 +160,13 @@ html {
     outline: none;
     vertical-align: middle;
     padding:5px;
-    font-size: 30px;
+    font-size: 1.8rem;
 }
 
 .btn_mail {
     width:204px;
     height:70px;
-    font-size: 30px;
+    font-size: 1.8rem;
     line-height: 70px;
     outline: none;
     background-color: #5EB6E8;
@@ -184,7 +184,7 @@ html {
     outline: none;
     vertical-align: middle;
     padding:5px;
-    font-size: 30px;
+    font-size: 1.8rem;
 }
 
 .btn_mail2 {
@@ -192,7 +192,7 @@ html {
     height:70px;
     padding:5px 5px;
     margin-left:10px;
-    font-size: 30px;
+    font-size: 1.8rem;
     line-height: 70px;
     outline: none;
     background-color: #5EB6E8;
@@ -233,7 +233,7 @@ html {
     grid-area : titre4;
     align-self: end;
     justify-self:center;
-    font-size: 10vh;
+    font-size: 4rem;
     border-bottom : 1px solid #000;
 }
 
@@ -243,7 +243,7 @@ html {
     grid-area : titre5;
     align-self: end;
     justify-self:center;
-    font-size: 10vh;
+    font-size: 4rem;
     border-bottom : 1px solid #000;
 }
 
@@ -253,7 +253,7 @@ html {
     grid-area : titre6;
     align-self:center;
     justify-self:center;
-    font-size: 10vh;
+    font-size: 4rem;
     color: #fff;
 }
 
@@ -263,7 +263,7 @@ html {
     grid-area : text2;
     align-self:start;
     justify-self:center;
-    font-size: 20px;
+    font-size: 1.2rem;
     color: #fff;
     text-align: center;
 }
@@ -289,7 +289,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 30px;
+    font-size: 1.8rem;
 }
 
 .item-nav a {
@@ -305,95 +305,100 @@ nav {
 }
 
 
+svg {
+    transform: translate(15px, 15px)
+}
+
 .card1 {
     background-color: #fff;
     min-height: 160px;
-    /* width:10em; */
+    width:10em;
     position:relative;
     grid-area:card1;
     border: rgb(255, 255, 255);
     box-shadow: 3px 3px 10px 6px #68676733;
     outline: none;
-    font-size: 30px;
+    font-size: 1.8rem;
     align-self:center;
     justify-self:center;
 }
 .card2 {
     background-color: #fff;
     min-height: 160px;
-    /* width:10em; */
+    width:10em;
     position:relative;
     grid-area:card2;
     border: rgb(255, 255, 255);
     box-shadow: 3px 3px 10px 6px #68676733;
     outline: none;
-    font-size: 30px;
+    font-size: 1.8rem;
     align-self:center;
     justify-self:center;
 }
 .card3 {
     background-color: #fff;
     min-height: 160px;
-    /* width:10em; */
+    width:10em;
     position:relative;
     grid-area:card3;
     border: rgb(255, 255, 255);
     box-shadow: 3px 3px 10px 6px #68676733;
     outline: none;
-    font-size: 30px;
+    font-size: 1.8rem;
     align-self:center;
     justify-self:center;
 }
 .card4 {
     background-color: #fff;
     min-height: 160px;
-    /* width:10em; */
+    width:10em;
     position:relative;
     grid-area:card4;
     border: rgb(255, 255, 255);
     box-shadow: 3px 3px 10px 6px #68676733;
     outline: none;
-    font-size: 30px;
+    font-size: 1.8rem;
     align-self:center;
     justify-self:center;
 }
 .card5 {
     background-color: #fff;
     min-height: 160px;
-    /* width:10em; */
+    width:10em;
     position:relative;
     grid-area:card5;
     border: rgb(255, 255, 255);
     box-shadow: 3px 3px 10px 6px #68676733;
     outline: none;
-    font-size: 30px;
+    font-size: 1.8rem;
     align-self:center;
     justify-self:center;
 }
 .card6 {
     background-color: #fff;
     min-height: 160px;
-    /* width:10em; */
+    width:10em;
     grid-area:card6;
     border: rgb(255, 255, 255);
     box-shadow: 3px 3px 10px 6px #68676733;
     outline: none;
-    font-size: 30px;
+    font-size: 1.8rem;
     align-self:center;
     justify-self:center;
 }
 
 
 .titre-card {
+    margin-left:15px;
     margin-right: 20px;
     display: inline-block;
-    font-size: 3vh;
+    font-size: 1.4rem;
 }
 
 p.article {
     padding: 10px 10px;
-    margin: 0 20px 0 45px;
-    font-size: 2.5vh;
+    margin: 10px 20px 0 45px;
+    font-size: 1rem;
 }
 
 
@@ -594,14 +599,22 @@ hr {
     .titre-card {
         margin-right: 20px;
         display: inline-block;
-        font-size: 3vh;
+        font-size: 1.4rem;
     }
 
-    /* p.article {
-        font-size: 3vh;
-    } */
+    .grid2 {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 2fr 2fr 2fr 2fr;
+        grid-template-areas:
+        "titre4 titre4"
+        "card1 card2"
+        "card3 card4"
+        "card5 card6"
+      }
+
 
     .grid3 {
+        grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-template-areas : 
                           "titre5"
                           "card-pres1"
@@ -640,18 +653,19 @@ hr {
     }
 
     #btn_demarrer {
-        font-size:15px;
+        margin-right:15px;
+        font-size:1rem;
         width:100px;
         height: 40px;
     }
     .item-nav {
-        font-size: 14px;
+        font-size: 1rem;
     }
     .item-nav:nth-child(1) {
         margin-left : 0;
     }
     #companyName {
-        font-size: 17px;
+        font-size: 1rem;
     }
     .mail {
         font-size: 1.5em;
@@ -664,17 +678,17 @@ hr {
         align-items: center; /* center the content vertically */
     }
     .titre2 {
-        font-size: 7vh;
+        font-size: 3rem;
     }
     .titre4 {
-        font-size:6vh;
+        font-size: 2rem;
     }
     .titre5 {
-        align-self: start;
-        font-size:6vh;
+        align-self: center;
+        font-size: 2rem;
     }
     .titre6 {
-        font-size: 6vh;
+        font-size: 2rem;
     }
     .icons {
         transform:scale(0.7);
@@ -696,7 +710,7 @@ hr {
         background-color: #053E5E;
         margin: 0;
         padding-bottom : 1px;
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 
     .item-nav a {
@@ -705,7 +719,7 @@ hr {
     }
 
     #btn_demarrer {
-        font-size:15px;
+        font-size:1rem;
         width:100px;
         height: 40px;
         margin:0 auto;
@@ -759,14 +773,14 @@ hr {
     .titre1 {
         margin-top: 60px;
         align-self: center;
-        font-size: 20px;
+        font-size: 1.25rem;
     }
     .titre2 {
-        font-size: 6vh;
+        font-size: 2rem;
     }
     .mail {
         width : 290px;
-        font-size: 30px;
+        font-size: 1.8rem;
         display:block;
         margin-bottom: 15px;
     }
@@ -794,7 +808,7 @@ hr {
         justify-self:center;
         margin-top:60px;
         margin-bottom: 40px;
-        font-size:6vh;
+        font-size:2rem;
     }
     .card1, .card2, .card3, .card4, .card5, .card6 {
         min-width:0px;
@@ -803,8 +817,9 @@ hr {
     /* p.article {
         font-size: 3vh;
     } */
+
     .titre-card {
-        font-size: 2vh;
+        font-size: 1.4rem;
     }
     .grid3 {
         grid-template-areas : 
@@ -820,7 +835,7 @@ hr {
 
     .titre5 {
         margin-bottom: 60px;
-        font-size:6vh;
+        font-size:2rem;
     }
     #card-pres1 {
         align-self: end;
@@ -864,16 +879,16 @@ hr {
     }
 
     .titre6 {
-        font-size: 5vh;
+        font-size: 2.4rem;
         align-self: end;
     }
 
     .text2 {
-        font-size: 3vh;
+        font-size: 1.2rem;
     }
     .mail2 {
         width:290px;
-        font-size: 30px;
+        font-size: 1.8rem;
         display:block;
         margin-bottom: 15px;
     }
@@ -893,3 +908,90 @@ hr {
     }
 
   }
+
+
+  /* IPHONE X */
+  @media only screen
+
+  and (min-device-width: 375px)
+
+  and (max-device-width: 812px)
+
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+  #btn_demarrer {
+      margin-left:unset;
+  }
+
+  .item-nav:nth-child(1) {
+    margin-left : auto;
+  }
+  .item-nav:nth-child(4) {
+    margin-right : auto;
+  }
+
+      p.article {
+        font-size: 1rem;
+    }
+
+    .titre-card {
+        font-size: 1.4rem;
+    }
+
+}
+
+
+/* GOOGLE PIXEL2 */
+
+@media only screen
+
+  and (min-device-width: 412px)
+
+  and (max-device-width: 732px)
+
+  and (-webkit-min-device-pixel-ratio: 2.6) {
+
+    #btn_demarrer {
+        margin-left:unset;
+    }
+  
+    .item-nav:nth-child(1) {
+      margin-left : auto;
+    }
+    .item-nav:nth-child(4) {
+      margin-right : auto;
+    }
+  
+    p.article {
+        font-size: 1rem;
+    }
+
+    .titre-card {
+        font-size: 1.4rem;
+    }
+
+
+}
+
+@media only screen
+
+  and (min-device-width: 768px)
+
+  and (max-device-width: 1366px)
+
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    btn_demarrer {
+        margin-left:unset;
+    }
+  
+    .item-nav:nth-child(1) {
+      margin-left : auto;
+    }
+    .item-nav:nth-child(4) {
+      margin-right : auto;
+    }
+
+}
+
+
