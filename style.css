@@ -31,16 +31,28 @@ html {
                           "text1"
 }
 
+
 .grid2 {
     display : grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr 2fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 0.5fr 1fr; */
     grid-gap: 20px;
     grid-template-areas : 
                           "titre4 titre4 titre4"
-                          "card1 card2 card3"
-                          "card4 card5 card6"
+                          "gallery gallery gallery"
 }
+
+
+.gallery {
+    grid-area:gallery;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width:80%;
+    max-width:1300px;
+    margin:70px auto 0;
+}
+
 
 .grid3 {
     display : grid;
@@ -228,11 +240,13 @@ html {
 
 
 .titre4{
-    margin-bottom: 5%;
-    padding: 20px 0;
-    grid-area : titre4;
+    grid-area:titre4;
     align-self: end;
     justify-self:center;
+    text-align:center;
+    margin-top:150px;
+    margin-bottom: 5%;
+    padding: 20px 0;
     font-size: 4rem;
     border-bottom : 1px solid #000;
 }
@@ -293,7 +307,7 @@ nav {
 }
 
 .item-nav a {
-    padding: 5px;
+    padding: 3px;
     margin: 0 10px;
     cursor:pointer;
     color: #000;
@@ -309,7 +323,22 @@ svg {
     transform: translate(15px, 15px)
 }
 
-.card1 {
+
+.cards {
+    background-color: #fff;
+    width:300px;
+    height:200px;
+    margin:10px;
+    position:relative;
+    border: rgb(255, 255, 255);
+    box-shadow: 3px 3px 10px 6px #68676733;
+    outline: none;
+    font-size: 1.8rem;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+/* .card1 {
     background-color: #fff;
     min-height: 160px;
     width:10em;
@@ -385,7 +414,7 @@ svg {
     font-size: 1.8rem;
     align-self:center;
     justify-self:center;
-}
+} */
 
 
 .titre-card {
@@ -405,13 +434,19 @@ p.article {
 .background {
     background: url(./images/cercles_accueil2.svg) top no-repeat;
     background-size: 100%;
+    /* background-size: cover; */
+    background-attachment:scroll;
+    /* background-position: center; */
 }
 
 
 .tarifs {
     background: url(./images/Tarifs_bg.svg);
-    background-repeat:no-repeat;
-    background-size: 100%;
+    /* background-repeat:no-repeat;
+    background-size: 100%; */
+    background-size: cover;
+    background-attachment:scroll;
+    background-position: center;
 }
 
 
@@ -570,20 +605,10 @@ hr {
 /* MEDIA QUERIES */
 
 @media screen and (min-width : 1024px) {
-    /* .card1, .card4{
-        width:400px;
-        justify-self:center;
-        grid-gap:unset;
-    }
-    .card2, .card5{
-        width:400px;
-        justify-self:center;
-        grid-gap:unset;
-    }
-    .card3, .card6 {
-        width:400px;
-        justify-self:center;
-        grid-gap:unset;
+
+
+    /* .grid2 {
+        grid-template-rows: 200px 1fr;
     } */
     .grid3 {
         grid-template-rows: 1.5fr 1fr 1fr 4fr;
@@ -601,17 +626,6 @@ hr {
         display: inline-block;
         font-size: 1.4rem;
     }
-
-    .grid2 {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 2fr 2fr 2fr 2fr;
-        grid-template-areas:
-        "titre4 titre4"
-        "card1 card2"
-        "card3 card4"
-        "card5 card6"
-      }
-
 
     .grid3 {
         grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -671,6 +685,7 @@ hr {
         font-size: 1.5em;
         line-height: 1.2;
         width : 220px;
+        height: 70px;
     }
     .btn_mail {
         display: inline-flex;
@@ -790,33 +805,14 @@ hr {
     }
     
 
-    .grid2 {
-      grid-template-columns: 1fr;
-      grid-template-rows: 4fr 2fr 2fr;
-      grid-template-areas:
-      "titre4"
-      "card1"
-      "card2"
-      "card3"
-      "card4"
-      "card5"
-      "card6"
-    }
     .titre4 {
-        grid-area : titre4;
+        /* grid-area : titre4;
         align-self: end;
-        justify-self:center;
-        margin-top:60px;
-        margin-bottom: 40px;
+        justify-self:center; */
+        /* margin-top:60px;
+        margin-bottom: 40px; */
         font-size:2rem;
     }
-    .card1, .card2, .card3, .card4, .card5, .card6 {
-        min-width:0px;
-    }
-
-    /* p.article {
-        font-size: 3vh;
-    } */
 
     .titre-card {
         font-size: 1.4rem;
@@ -888,6 +884,7 @@ hr {
     }
     .mail2 {
         width:290px;
+        height: 70px;
         font-size: 1.8rem;
         display:block;
         margin-bottom: 15px;
