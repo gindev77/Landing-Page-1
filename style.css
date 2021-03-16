@@ -468,11 +468,9 @@ hr {
     display:flex;
     justify-content: center;
     align-items: center;
-    /* width:100%;
-    height:70px; */
-    /* flex-wrap: wrap; */
-    /* width:80%;
-    max-width:1300px; */
+    /* width:100%; */
+
+    /* max-width:1300px; */
 }
 
 .item-footer:hover {
@@ -482,7 +480,7 @@ hr {
 
 .social-icons {
     margin-left : auto;
-    margin-right : 15px;
+    margin-right : 50px;
     cursor:pointer;
 }
 
@@ -490,7 +488,7 @@ hr {
     width : 70px;
     height : 70px;
     margin-right : auto;
-    margin-left : 15px;
+    margin-left : 50px;
     cursor:pointer;
 }
 
