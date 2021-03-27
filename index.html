@@ -8,6 +8,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,7 +17,7 @@
             <section id="accueil" class="accueil grid">
                 <nav class="navbar">
                     <img class=""id="logo" src="./images/bx_bxs-factory.svg" alt="logo de la marque OneCompany">
-                    <p id="companyName" class="titrage">OneCompany</p>
+                    <p id="companyName" class="titrage wow animate__animated animate__jackInTheBox">OneCompany</p>
                     <ul class="list-nav titrage">
                         <li class="item-nav">
                             <a href="#accueil">Accueil</a>
@@ -38,13 +39,13 @@
                         <img src="./images/menu.svg" alt="icone menu hamburger">
                     </div>
                 </nav>
-                <h5 class="titre1 titrage">Notre engagement</h5>
-                <h1 class="titre2 texte">L'assurance d'un produit<br> de qualité</h1>
+                <h5 class="titre1 titrage wow animate__animated animate__zoomIn">Notre engagement</h5>
+                <h1 class="titre2 texte  ">L'assurance d'un produit<br> de qualité</h1>
                 <form class="form1" action=""><input type="mail" class="mail"><button type="button" class="btn_mail">S'abonner</button></form>
                 <p class="text1 texte">Déjà plus de 100000 abonnés ...</p>
             </section>
             <section id="services" class="services grid2">
-                <h2 class="titre4 titrage">Nos services</h2>
+                <h2 class="titre4 titrage wow animate__animated animate__zoomIn">Nos services</h2>
                 <div class="gallery">
                 <div class="cards card1">
                     <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -92,7 +93,7 @@
             </section>
         </div>
         <section id="tarifs" class="tarifs grid3">
-                <h2 class="titre5 titrage">Nos tarifs</h2>
+                <h2 class="titre5 titrage wow animate__animated animate__zoomIn">Nos tarifs</h2>
                 <div id="card-pres1">
                     <div id="photo1"></div>
                     <p class="texte text-pres">Lorem ipsum dolor sit amet<br> consectetur adipisicing elit. Accusamus, mollitia.<br><br>@JaneDoe</p>
@@ -107,7 +108,7 @@
                 </div>
         </section>
         <section id="contact" class="contact grid4">
-            <h2 class="titre6 titrage">Restons en contact</h2>
+            <h2 class="titre6 titrage wow animate__animated animate__zoomIn">Restons en contact</h2>
             <p class="texte text2">Lorem ipsum dolor sit, amet consectetur adipisicing<br> elit. Magni, explicabo?</p>
             <form class="form2" action=""><input type="mail" class="mail2"><button type="button" class="btn_mail2">S'abonner</button></form>
             <hr>
@@ -120,6 +121,8 @@
                 </div>
             </div>
             </section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>new WOW().init();</script>
 <script src="app.js"></script>
 </body>
 </html>
