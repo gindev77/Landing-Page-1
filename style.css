@@ -689,11 +689,12 @@ hr {
     .titre1 {
         margin-top: 60px;
         align-self: center;
-        font-size: 1.25rem;
+        font-size: 1.5rem;
     }
     .titre2 {
         font-size: 2rem;
     }
+
     .mail {
         width : 290px;
         font-size: 1.8rem;
