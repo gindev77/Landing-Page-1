@@ -8,7 +8,6 @@ Une landing page responsive n\'utilisant  aucun framework css. J\'ai employé la
 
 - Html5
 - Css3
-- Java
 - Javascript
 
 ## Librairies :
