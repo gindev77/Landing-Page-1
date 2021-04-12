@@ -11,7 +11,7 @@ Une landing page responsive n\'utilisant  aucun framework css. J\'ai employé la
 - Java
 - Javascript
 
-##Librairies :
+## Librairies :
 
 - animate.css
 - wow.js
