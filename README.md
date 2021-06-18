@@ -2,7 +2,7 @@
 
 Partant d'une maquette figma, j'ai reproduit la maquette pour donner vie à cette page web.
 
-Une landing page responsive n\'utilisant  aucun framework css. J\'ai employé la grid css avec flexbox et usé des média-queries pour adapter le site au plus grand nombre de devices. J\'utilise également des SVG pour designer le theme de la page. J\'emploi les librairies d\'animations animate.css et wow.js pour donner un coté plus dynamique au rendu de la page.
+Une landing page responsive n\'utilisant  aucun framework css. J\'ai employé la grid css avec flexbox et usé des média-queries pour adapter le site au plus grand nombre de devices. J\'utilise également des SVG pour faire le design du theme de la page. J\'emploi les librairies d\'animations animate.css et wow.js pour donner un coté plus dynamique au rendu de la page.
 
 ## Technos :
 
@@ -14,3 +14,7 @@ Une landing page responsive n\'utilisant  aucun framework css. J\'ai employé la
 
 - animate.css
 - wow.js
+
+## Démo :
+
+https://gindev77.github.io/Landing-Page-1/
